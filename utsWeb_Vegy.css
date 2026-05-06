@@ -492,9 +492,9 @@ input, textarea{
     }
 
     .sidebar{
-        width: 100%;
+        width: 0;
         position: relative;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
             
     .kontenutama {
