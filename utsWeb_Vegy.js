@@ -35,5 +35,10 @@ function validasi(dataform){
             return(false);
         }
     }
+
+    setTimeout(function(){
+        dataform.reset();
+    }, 1000); 
+    
     return alert("Pesan Terkirim");
 }
