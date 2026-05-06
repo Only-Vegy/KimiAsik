@@ -485,7 +485,6 @@ input, textarea{
 }
 
 @media screen and (max-width: 768px) {
-    /* 1. Atur Header agar menumpuk ke bawah */
     .header {
         flex-direction: column;
         height: auto;
@@ -500,7 +499,7 @@ input, textarea{
             
     .kontenutama {
         flex-direction: column;
-        margin-left: 0; /* Hilangkan margin jika sebelumnya ada sidebar di samping */
+        margin-left: 0;
         padding: 10px;
     }
 
