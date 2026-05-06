@@ -197,27 +197,27 @@
             </div>
         </div>
 
-        <div id="kontak">
+        div id="kontak">
             <h2>Kontak Saya</h2>
             <div class="kontak">
-                <form onsubmit="return validasi(this)">
+                <form action="https://formspree.io/f/mrejkobr" method="POST" onsubmit="return validasi(this)">
                     <div class="nama">
                         <label>Nama Lengkap</label>
-                        <input name="nama" type="text" placeholder="Input Nama">
+                        <input name="nama" type="text" placeholder="Input Nama" required>
                     </div>
                     <div class="hpemail">
                         <div class="formhpemail">
                             <label>Nomor HP</label><br>
-                            <input name="nomorhp" type="text" placeholder="Input No.HP">
+                            <input name="nomorhp" type="text" placeholder="Input No.HP" required>
                         </div>
                         <div class="formhpemail">
                             <label>E-mail</label><br>
-                            <input name="email" type="text" placeholder="Input E-mail" cols="">
+                            <input name="email" type="text" placeholder="Input E-mail" required>
                         </div>
                     </div>
                     <div class="pesan">
                         <label>Pesan</label><br>
-                        <textarea name="pesan" cols="70" rows="5" placeholder="Tulis Pesan"></textarea><br>
+                        <textarea name="pesan" cols="70" rows="5" placeholder="Tulis Pesan" required></textarea><br>
                     </div>
                     <div class="submit">
                         <input type="submit" value="KIRIM">
