@@ -483,3 +483,18 @@ input, textarea{
     color: var(--tiga);
 
 }
+
+@media screen and (max-width: 768px) {
+    /* 1. Atur Header agar menumpuk ke bawah */
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .sidebar{
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
